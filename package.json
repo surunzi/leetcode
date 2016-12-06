@@ -1,0 +1,13 @@
+{
+  "name": "leetcode",
+  "version": "0.0.1",
+  "description": "Personal LeetCode solutions",
+  "main": "index.js",
+  "repository": "git@github.com:surunzi/leetcode.git",
+  "author": "surunzi <surunzi@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
