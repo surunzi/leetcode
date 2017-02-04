@@ -6,6 +6,9 @@
   "repository": "git@github.com:surunzi/leetcode.git",
   "author": "surunzi <surunzi@foxmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha *.test.js"
+  },
   "dependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
