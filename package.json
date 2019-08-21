@@ -7,10 +7,14 @@
   "author": "surunzi <surunzi@foxmail.com>",
   "license": "MIT",
   "scripts": {
+    "format": "prettier *.js --write",
     "test": "mocha *.test.js"
   },
   "dependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
   }
 }

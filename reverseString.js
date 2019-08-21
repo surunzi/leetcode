@@ -1,9 +1,8 @@
-module.exports = function (s)
-{
-    var len = s.length,
-        ret = [];
+module.exports = function(s) {
+  var len = s.length,
+    ret = []
 
-    while (len--) ret.push(s[len]);
+  while (len--) ret.push(s[len])
 
-    return ret.join('');
-};
+  return ret.join('')
+}
