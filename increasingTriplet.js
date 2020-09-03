@@ -1,28 +1,17 @@
 module.exports = function(nums) {
-  let min = nums[0]
-  let cur = null
+  let first = Infinity
+  let second = Infinity
+
   for (let i = 0, len = nums.length; i < len; i++) {
     const num = nums[i]
-
-    if (num === min) {
-      continue
+    if (num > second) {
+      return true
     }
-
-    if (num < min) {
-      min = num
-      continue
+    if (num < first) {
+      first = num
+    } else if (num > first && num < second) {
+      second = num
     }
-
-    if (cur === null) {
-      cur = num
-    }
-
-    if (num < cur) {
-      cur = num
-      continue
-    }
-
-    return true
   }
 
   return false
