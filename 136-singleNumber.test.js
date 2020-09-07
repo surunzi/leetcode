@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const singleNumber = require('./singleNumber')
+const singleNumber = require('./136-singleNumber')
 
 describe('single number', function() {
   it('single number', function() {

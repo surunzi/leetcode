@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const islandPerimeter = require('./islandPerimeter')
+const islandPerimeter = require('./463-islandPerimeter')
 
 describe('island perimeter', function() {
   it('island perimeter', function() {

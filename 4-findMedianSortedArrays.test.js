@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const findMedianSortedArrays = require('./findMedianSortedArrays')
+const findMedianSortedArrays = require('./4-findMedianSortedArrays')
 
 describe('find median sorted arrays', function() {
   it('return the median of the two sorted arrays', function() {

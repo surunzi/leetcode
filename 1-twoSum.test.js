@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const twoSum = require('./twoSum')
+const twoSum = require('./1-twoSum')
 
 describe('two sum', () => {
   it('return indices of the two numbers such that they add up to a specific target', () => {

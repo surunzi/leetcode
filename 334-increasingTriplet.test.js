@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const increasingTriplet = require('./increasingTriplet')
+const increasingTriplet = require('./334-increasingTriplet')
 
 describe('increasing triplet subsequence', function() {
   it('return whether an increasing subsequence of length 3 exists or not in the array', function() {

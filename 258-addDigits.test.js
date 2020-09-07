@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const addDigits = require('./addDigits')
+const addDigits = require('./258-addDigits')
 
 describe('add digits', function() {
   it('add digits', function() {

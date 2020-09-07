@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const sumOfLeftLeaves = require('./sumOfLeftLeaves')
+const sumOfLeftLeaves = require('./404-sumOfLeftLeaves')
 
 describe('sum of left leaves', function() {
   it('sum of left leaves', function() {

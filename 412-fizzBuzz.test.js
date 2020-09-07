@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const fizzBuzz = require('./fizzBuzz')
+const fizzBuzz = require('./412-fizzBuzz')
 
 describe('fizz buzz', function() {
   it('output the string representation of numbers from 1 to n', function() {

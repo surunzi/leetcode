@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const isAnagram = require('./isAnagram')
+const isAnagram = require('./242-isAnagram')
 
 describe('is anagram', function() {
   it('determine if t is an anagram of s', function() {

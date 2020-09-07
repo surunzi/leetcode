@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const maximumSwap = require('./maximumSwap')
+const maximumSwap = require('./670-maximumSwap')
 
 describe('maximum swap', function() {
   it('return the maximum valued number', function() {

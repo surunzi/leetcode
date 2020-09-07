@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const maxDepth = require('./maxDepth')
+const maxDepth = require('./104-maxDepth')
 
 describe('max depth', function() {
   it('find maximum depth of a binary tree', function() {

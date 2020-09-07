@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const moveZeroes = require('./moveZeroes')
+const moveZeroes = require('./283-moveZeroes')
 
 describe('move zeroes', function() {
   it("move all 0's to the end", function() {

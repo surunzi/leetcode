@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const spiralOrder = require('./spiralOrder')
+const spiralOrder = require('./54-spiralOrder')
 
 describe('spiral order', function() {
   it(' return all elements of the matrix in spiral order', function() {

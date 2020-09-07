@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const addStrings = require('./addStrings')
+const addStrings = require('./415-addStrings')
 
 describe('add strings', function() {
   it('add big number in string format', function() {

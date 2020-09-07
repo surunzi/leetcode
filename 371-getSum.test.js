@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const getSum = require('./getSum')
+const getSum = require('./371-getSum')
 
 describe('get sum', function() {
   it('get sum of two integers', function() {

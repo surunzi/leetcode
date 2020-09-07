@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const invertTree = require('./invertTree')
+const invertTree = require('./226-invertTree')
 
 describe('invert tree', function() {
   it('invert binary tree', function() {

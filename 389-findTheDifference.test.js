@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const findTheDifference = require('./findTheDifference')
+const findTheDifference = require('./389-findTheDifference')
 
 describe('find the difference', function() {
   it('find the difference', function() {

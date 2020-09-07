@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const reverseString = require('./reverseString')
+const reverseString = require('./344-reverseString')
 
 describe('reverse string', function() {
   it('reverse string', function() {

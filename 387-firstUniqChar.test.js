@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const firstUniqChar = require('./firstUniqChar')
+const firstUniqChar = require('./387-firstUniqChar')
 
 describe('first unique char', function() {
   it('return first unique char position', function() {

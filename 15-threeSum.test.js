@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const threeSum = require('./threeSum')
+const threeSum = require('./15-threeSum')
 
 describe('three sum', function() {
   it('find all unique triplets in the array which gives the sum of zero', function() {
