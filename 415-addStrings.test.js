@@ -1,11 +1,6 @@
-const expect = require('chai').expect
-const addStrings = require('./415-addStrings')
-
-describe('add strings', function() {
-  it('add big number in string format', function() {
-    expect(addStrings('0', '0')).to.equal('0')
-    expect(addStrings('10', '156')).to.equal('166')
-    expect(addStrings('1234567890', '112')).to.equal('1234568002')
-    expect(addStrings('1', '9')).to.equal('10')
-  })
-})
+require('./test')('415-addStrings', [
+  ['0', '0', '0'],
+  ['10', '156', '166'],
+  ['1234567890', '112', '1234568002'],
+  ['1', '9', '10']
+])

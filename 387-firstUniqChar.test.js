@@ -1,11 +1,6 @@
-const expect = require('chai').expect
-const firstUniqChar = require('./387-firstUniqChar')
-
-describe('first unique char', function() {
-  it('return first unique char position', function() {
-    expect(firstUniqChar('leetcode')).to.equal(0)
-    expect(firstUniqChar('loveleetcode')).to.equal(2)
-    expect(firstUniqChar('aa')).to.equal(-1)
-    expect(firstUniqChar('tdddytyyyac')).to.equal(9)
-  })
-})
+require('./test')('387-firstUniqChar', [
+  ['leetcode', 0],
+  ['loveleetcode', 2],
+  ['aa', -1],
+  ['tdddytyyyac', 9]
+])

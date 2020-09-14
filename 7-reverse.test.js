@@ -1,11 +1,6 @@
-const expect = require('chai').expect
-const reverse = require('./7-reverse')
-
-describe('reverse', function() {
-  it('reverse digits of an integer', function() {
-    expect(reverse(123)).to.equal(321)
-    expect(reverse(-123)).to.equal(-321)
-    expect(reverse(120)).to.equal(21)
-    expect(reverse(1534236469)).to.equal(0)
-  })
-})
+require('./test')('7-reverse', [
+  [123, 321],
+  [-123, -321],
+  [120, 21],
+  [1534236469, 0]
+])

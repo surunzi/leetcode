@@ -1,11 +1,9 @@
-const expect = require('chai').expect
-const fizzBuzz = require('./412-fizzBuzz')
-
-describe('fizz buzz', function() {
-  it('output the string representation of numbers from 1 to n', function() {
-    expect(fizzBuzz(1)).to.eql(['1'])
-    expect(fizzBuzz(3)).to.eql(['1', '2', 'Fizz'])
-    expect(fizzBuzz(15)).to.eql([
+require('./test')('412-fizzBuzz', [
+  [1, ['1']],
+  [3, ['1', '2', 'Fizz']],
+  [
+    15,
+    [
       '1',
       '2',
       'Fizz',
@@ -21,6 +19,6 @@ describe('fizz buzz', function() {
       '13',
       '14',
       'FizzBuzz'
-    ])
-  })
-})
+    ]
+  ]
+])

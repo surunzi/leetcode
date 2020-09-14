@@ -1,25 +1,21 @@
-const expect = require('chai').expect
-const maxDepth = require('./104-maxDepth')
-
-describe('max depth', function() {
-  it('find maximum depth of a binary tree', function() {
-    expect(
-      maxDepth({
+require('./test')('104-maxDepth', [
+  [
+    {
+      left: {},
+      right: {
         left: {},
         right: {
-          left: {},
-          right: {
-            right: {}
-          }
+          right: {}
         }
-      })
-    ).to.equal(4)
-
-    expect(
-      maxDepth({
-        left: {},
-        right: {}
-      })
-    ).to.equal(2)
-  })
-})
+      }
+    },
+    4
+  ],
+  [
+    {
+      left: {},
+      right: {}
+    },
+    2
+  ]
+])

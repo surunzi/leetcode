@@ -1,39 +1,35 @@
-const expect = require('chai').expect
-const invertTree = require('./226-invertTree')
-
-describe('invert tree', function() {
-  it('invert binary tree', function() {
-    expect(
-      invertTree({
-        val: 4,
+require('./test')('226-invertTree', [
+  [
+    {
+      val: 4,
+      left: {
+        val: 2,
         left: {
-          val: 2,
-          left: {
-            val: 1,
-            left: null,
-            right: null
-          },
-          right: {
-            val: 3,
-            left: null,
-            right: null
-          }
+          val: 1,
+          left: null,
+          right: null
         },
         right: {
-          val: 7,
-          left: {
-            val: 6,
-            left: null,
-            right: null
-          },
-          right: {
-            val: 9,
-            left: null,
-            right: null
-          }
+          val: 3,
+          left: null,
+          right: null
         }
-      })
-    ).to.eql({
+      },
+      right: {
+        val: 7,
+        left: {
+          val: 6,
+          left: null,
+          right: null
+        },
+        right: {
+          val: 9,
+          left: null,
+          right: null
+        }
+      }
+    },
+    {
       val: 4,
       left: {
         val: 7,
@@ -61,8 +57,7 @@ describe('invert tree', function() {
           right: null
         }
       }
-    })
-
-    expect(invertTree(null)).to.eql(null)
-  })
-})
+    }
+  ],
+  [null, null]
+])

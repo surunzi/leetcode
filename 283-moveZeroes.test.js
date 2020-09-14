@@ -1,8 +1,8 @@
 const expect = require('chai').expect
 const moveZeroes = require('./283-moveZeroes')
 
-describe('move zeroes', function() {
-  it("move all 0's to the end", function() {
+describe('283', function() {
+  it('moveZeroes', function() {
     var arr1 = [0, 1, 0, 3, 12]
     moveZeroes(arr1)
     expect(arr1).to.eql([1, 3, 12, 0, 0])
