@@ -1,6 +1,5 @@
 language: node_js
 node_js:
-  - "6"
-  - "7"
-before_script:
-  - npm install -g mocha
+  - "12"
+script:
+  - npm run ci

@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "format": "prettier *.js --write",
-    "test": "mocha *.test.js"
+    "test": "mocha *.test.js",
+    "ci": "npm run test"
   },
   "dependencies": {
     "chai": "^3.5.0",
